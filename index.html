@@ -7,13 +7,20 @@
 </head>
 <body>
     <header>Weather Dashboard</header>
-    <div id="searchCity">
+    <section id="weatherWrapper">
+    <div class="searchSection">
+        <div id="searchCity">
         <h1>Search for a City:</h1>
         <input id="searchInput"></input>
         <button id="searchButton">Search</button>
     </div>
+    
     <div id="searchHistory">Search history goes here:</div>
-    <div id="selectedCity">Selected City, Today's date, Today's forecast</div>
+    </div>
+    <div class="mainWeather">
+        <div id="selectedCity">Selected City, Today's date, Today's forecast</div>
+    </div>
+    </section>
     <div id="fivedayForecast">5 day forecast</div>
     <script src="script.js"></script>
 </body>
